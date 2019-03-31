@@ -1,0 +1,177 @@
+*{color:#333333;font-size:12px;font-family:arial,tahoma,sans-serif;line-height:18px;}
+body{background:#7e7e7e;}
+h1:hover,h2:hover{color:#E91A2D}
+img{border:0;}
+.wrap{width:1000px;margin:0 auto;padding:0 10px;background:#f5f5f5;}
+/* pagination */
+.pagination{float:right;padding:10px 0;}
+.pagination div{float:left;margin-right:10px;font-weight:bold;}
+.pagination div.active{text-decoration:underline}
+.pagination div a{text-decoration:none;color:#7e7e7e;}
+/**/
+#z-top{clear:both;}
+/*logo + menu*/
+.top-1{clear:both;height:125px;}
+.top-1 .fLeft{position:relative;width:300px;height:125px;float:left;}
+.top-1 .fRight{position:relative;width:700px;height:125px;float:right;}
+.top-1 .fRight .menu-top{position:absolute;top:2px;right:5px;}
+.top-1 .fRight .menu-top a{text-decoration:none;color:#333;font-weight:bold;}
+.top-1 .fRight .menu-top a:hover{color:#ff0000}
+.top-1 .fRight #navigationmenu{position:absolute;bottom:20px;right:0;}
+/*slide*/
+.top-2{clear:both;height:250px;overflow:hidden;}
+.top-2 .slider-wrapper{height:250px;}
+.top-2 .nivoSlider{height:250px;overflow:hidden;margin-bottom:0;}
+.top-2 .nivoSlider .nivo-directionNav a{top:40%;}
+.top-2 .nivoSlider img{
+/* -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px; */}
+/*z-mid*/
+#z-mid{clear:both;margin-top:10px;}
+.z-left{width:220px;float:left;}
+.z-center{width:550px;float:left;margin-left:10px;}
+.z-right{width:210px;float:right;}
+.module{_border:1px solid #dbdbdb;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin-bottom:10px;}
+.module .title{width:auto;height:30px;clear:both;line-height:30px;font-weight:bold;padding:0 0 0 10px;-webkit-border-top-left-radius:3px;-webkit-border-top-right-radius:3px;-moz-border-radius-topleft:3px;-moz-border-radius-topright:3px;border-top-left-radius:3px;border-top-right-radius:3px;font-size:13px;color:#fff;font-family:tahoma,arial,sans-serif;border:1px solid #503a2f;background:url(http://saigonapartment.com.vn/public/image/layout/bg-title-3.png) left center repeat-x;}
+.module .title a{text-decoration:none; color: #fff;}
+.module .title a:hover{color:#40C6F0}
+.module .title a:hover h1{color:#fff}
+.module .title h1{width:auto;height:30px;clear:both;float:left;line-height:30px;font-weight:bold;font-size:13px;color:#fff;font-family:tahoma,arial,sans-serif;}
+.module .content{padding:5px 5px 5px 5px;}
+#z-mid .module .content{border:1px solid #bdbdbd;background:#fff;}
+/*tree menu*/
+.box-menu-tree .content{background:#D1C9AF url(http://saigonapartment.com.vn/public/image/layout/bg-box-menu.png) right top repeat-y!important;}
+#browser{padding-left:5px;}
+#browser ul,#browser li{list-style:none;}
+#browser li{margin-bottom:3px;}
+#browser li span.folder{padding:3px 0 3px 20px;font-weight:bold;cursor:pointer;}
+#browser li span.folder:hover{color:#850E11;}
+#browser li ul li a{padding:5px 0 5px 20px;margin-left:15px;text-decoration:none;}
+#browser li ul li a.active{color:#850E11;}
+#browser li ul li a:hover{color:#850E11;}
+#browser li.closed ul{display:none;}
+.filetree span.folder{background:url(http://saigonapartment.com.vn/public/image/layout/icon-address.png) left center no-repeat!important;}
+.filetree li.expandable span.folder{background:url(http://saigonapartment.com.vn/public/image/layout/icon-address.png) left center no-repeat!important;}
+.filetree span.file,.filetree a.file{background:url(http://saigonapartment.com.vn/public/image/layout/icon-ubuntu.png) left center no-repeat!important;}
+/*hcm map*/
+.z-right .box-statis-page img{width:198px;}
+/*support*/
+.box-support .item{padding:5px 0;border-top:1px solid #aaa;}
+.box-support .item.item-first{border-top:0px solid #aaa;}
+.box-support .item .name{float:left;height:20px;line-height:20px;text-indent:20px;font-weight:bold;background:url(http://saigonapartment.com.vn/public/image/layout/icon_user.png) center left no-repeat;}
+.box-support .item .yahoo{float:right;}
+.box-support .item .phone{float:left;margin-top:2px;text-indent:20px;background:url(http://saigonapartment.com.vn/public/image/layout/icon_phone.png) left center no-repeat;}
+.box-support .item .skype{float:right;display:block;cursor:pointer;width:64px;height:16px;margin-top:5px;text-indent:-9999px;background:url(http://saigonapartment.com.vn/public/image/layout/icon_skype.png) left center no-repeat;}
+.box-support .item .email{clear:both;margin-top:2px;text-indent:20px;background:url(http://saigonapartment.com.vn/public/image/layout/icon_email.png) left center no-repeat;}
+.box-support .item .email a{text-decoration:none}
+.box-support .item .email a:hover{color:#529AC8}
+/*partner*/
+.box-partner ul,.box-partner li{list-style:none;}
+.box-partner li{display:block;position:relative;}
+.box-partner li.second{margin-top:10px;}
+.box-partner li .img{display:block;}
+.box-partner img{width:198px}
+.box-partner li a.tit{position:absolute;bottom:0;left:0;display:block;width:100%;height:20px;text-indent:5px;line-height:20px;overflow:hidden;text-decoration:none;color:#fff;background:url(http://saigonapartment.com.vn/public/image/layout/bg-opacity.png) repeat;}
+.box-partner li:hover a.tit{color:#333;}
+/*real new data*/
+.box-real-newData ul,.box-real-newData li{list-style:none;}
+.box-real-newData li.second{margin-top:10px;padding-top:10px;border-top:1px solid #dbdbdb;}
+.box-real-newData img{width:202px;height:112px;padding:1px;border:1px solid #dbdbdb;}
+.box-real-newData li a{text-decoration:none;}
+.box-real-newData li span.cost{color:#ff0000;}
+.box-real-detail .content .tit h1{}
+.box-real-detail .content .tit span{display:block;clear:both;}
+.box-real-detail .content .tit span.date{padding-bottom:10px;color:#7e7e7e;}
+.box-real-detail .content .tit span.id,.box-real-detail .content .tit span.cost{color:#ff0000;}
+.box-real-detail .content .tit span b{display:block;float:left;width:160px;}
+.box-real-detail .content .info{margin:10px 0;padding:10px 0;border-top:1px solid #cbcbcb;border-bottom:1px solid #cbcbcb;}
+.box-real-detail .content span.miniTit{display:block;font-weight:bold;font-size:13px;padding-bottom:5px;}
+.box-real-detail .content .fLeft img{max-width:758px;}
+.box-real-detail .content .img .theme-default .nivo-controlNav{padding:0 0 20px 0}
+.box-real-detail .content .img .theme-default .nivo-controlNav.nivo-thumbs-enabled img{width:60px;}
+.box-real-detail .content .miniMenu{height:30px;line-height:30px;margin-bottom:10px;background:#cccccc;}
+.box-real-detail .content .miniMenu a.float-left{margin-left:10px;}
+.box-real-detail .content .miniMenu a.float-right{margin:0 10px;}
+.box-real-detail .content .miniMenu a{text-decoration:none;line-height:30px;color:#000;}
+.box-real-detail .content .miniMenu a:hover{color:#7e7e7e;}
+.box-real-detail .content .contact{border-top:1px solid #cbcbcb;padding:10px 0;}
+.box-real-detail .content .contact .left{width:100px;height:20px;float:left;line-height:20px;}
+.box-real-detail .content .contact .right{width:600px;height:20px;float:left;line-height:20px;}
+.box-real-detail .content .contact .right a{text-decoration: none}
+.box-real-detail .content .contact .right a:hover{text-decoration: underline}
+.box-real-detail .content .tags a{font-weight: normal;text-decoration: none;}
+.box-real-detail .content .tags a:hover{text-decoration: underline;}
+.mainImg{text-align:center;width:550px;height:414px;margin: 0 auto}
+.mainImg img{max-width:550px;max-height:414px;}
+.thumbImg{width: 560px; margin: 0 auto;padding:5px 0 10px 0;text-align:center;}
+.thumbImg img{width:60px;height:45px;cursor:pointer;}
+.thumbImg img.item-2{margin-left:5px;}
+.box-real-detail .content .fLeft{
+width:470px;
+float: left;
+}
+.box-real-detail .content .fRight{
+width:287px;
+float: right;
+}
+.box-real-detail .content .fRight #map_contact{
+height: 245px;
+border: 1px solid #bfbfbf;
+}
+/*list real*/
+.box-real-search ul,.box-real-search li{list-style:none;}
+.box-real-search li{display:block;}
+.box-real-search li.item-first{margin-top:5px;}
+.box-real-search li.item-second{margin-top:10px;padding-top:10px;border-top:1px solid #dbdbdb;}
+.box-real-search li a{display:block;clear:both;text-decoration:none;}
+.box-real-search li a.tit{padding-bottom:5px;height:24px;line-height:26px;overflow:hidden}
+.box-real-search li a.tit h2{height:24px;line-height:26px;color: #000;font-size: 14px;}
+.box-real-search li a.img{display:block;width:200px;float:left;}
+.box-real-search li a.img img{width:196px;padding:1px;border:1px solid #dbdbdb}
+.box-real-search li span{display:block;width:328px;float:right;}
+.box-real-search li span.id,.box-real-search li span.cost{color:#ff0000;}
+.box-real-search li a.readmore{clear:none;width:328px;float:right;margin-top:3px;color:#00639F;font-family:tahoma,arial,sans-serif;}
+.box-real-search li a.readmore:hover{color:#ff0000;}
+.box-real-search .more{height:20px;line-height:20px;text-align:right;padding:5px 5px 10px 0;}
+.box-real-search .more a{text-decoration:none;font-weight:bold;color:#666;font-family:tahoma,arial,sans-serif;}
+.box-real-search .more a:hover{color:#00639F}
+.module .title a.float-right{height:30px;line-height:30px;padding-right:10px;text-decoration:none;font-weight:bold;color:#fff;font-family:tahoma,arial,sans-serif;}
+.module .title a.float-right:hover{color:#ffff00}
+.box-search-form .search-title{float:left;padding:0 20px;height:30px;line-height:30px;font-weight:bold;margin-top:0px;color:#fff;background:url(../image/layout/bg-title-search.png) repeat-x;webkit-border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;-moz-border-radius:3px;border-radius:3px;border-radius:3px;border:1px solid #fff;}
+/*z-home*/
+.z-home{width:770px;float:right;}
+.z-home-top .module.left{width:550px;height:184px;float:left;}
+.z-home-top .module.right{width:210px;float:right;}
+.z-home-top .module.right .content{height:140px;}
+.z-home .box-real-search li{width:370px;background:#fff;margin:5px 0 5px 0;padding:5px;border:1px solid #BDBDBD;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+.z-home .box-real-search li.item-1{float:left;}
+.z-home .box-real-search li.item-2{float:right;}
+.z-home .box-real-search li a.img{width:210px;display:block;float:left;}
+.z-home .box-real-search li a.img img{width:206px;height:150px;padding:1px;border:1px solid #DBDBDB;}
+.z-home .box-real-search li span{display:block;float:right;width:155px;height:17px;line-height:17px;overflow:hidden}
+.z-home .box-real-search li span sup{line-height:0!important;}
+.z-home .box-real-search li a.readmore{width:155px;}
+/*search*/
+.box-search-form{}
+.box-search-form .content{padding:10px 10px 20px 10px;background:#D1C9AF url(http://saigonapartment.com.vn/public/image/layout/bg-search-property-small.png) 10px 15px no-repeat!important;}
+.box-search-form .form{width:320px;float:right;}
+.box-search-form .form .item{clear:both;margin-bottom:5px;line-height:22px;}
+.box-search-form .form select{width:300px;padding:2px;}
+.box-search-form .form input.text{width:125px;margin-right:7px;}
+.box-search-form .form input.bntSearch{width:125px;height:27px;border:0px;color:#fff;font-weight:bold;background:url(http://saigonapartment.com.vn/public/image/layout/bg-search-button.png) center left repeat-x;}
+.box-search-form .form input.bntSearch:hover{color:#ffff00;}
+/*contact*/
+.box-contact form{padding:5px;}
+.box-contact .item{margin-bottom:10px;line-height:24px;}
+.box-contact .item label{display:block;width:110px;height:24px;float:left;line-height:24px;font-weight:bold;}
+.box-contact .item label.error{width:400px;clear:both;margin-left:110px;color:#ff0000;}
+.box-contact .item select{width:206px;padding:2px;}
+.box-contact .item input.text{display:block;float:left;}
+.box-contact .item-submit{clear:both;}
+.box-contact .item-submit input.bntOK{float:left;margin-left:110px;color:#fff;background:url(http://saigonapartment.com.vn/public/image/layout/bg-button.png) repeat;}
+.box-contact .item-submit input.bntReset{float:left;margin-left:20px;color:#013B62;background:url(http://saigonapartment.com.vn/public/image/layout/bg-body.png) repeat;}
+.box-contact .item-submit input.bnt{padding:5px 15px;}
+.box-contact .item-submit input.bntOK:hover{color:#ffff00;}
+.box-contact .item-submit input.bntReset:hover{color:#000000;}
+/*bot*/
+#z-bot{padding-bottom:10px;}
+#z-bot .box-statis-page{display:none;border:1px solid #BDBDBD;background:#fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
